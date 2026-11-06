@@ -44,14 +44,15 @@
       Policy</a>. We do not receive any personal information about viewers. YouTube only shows us totals, such
       as how many times a video was watched.</p>
 
-    <h2>Curious Nest Uploader and YouTube API Services</h2>
+    <h2 id="uploader">Curious Nest Uploader and YouTube API Services</h2>
     <p>Curious Nest Uploader is an internal tool used only by the Curious Nest team. It is not offered to the
       public. It uses <b>YouTube API Services</b> to publish Curious Nest videos to the Curious Nest YouTube
       channel.</p>
     <ul>
       <li><b>What it accesses.</b> After the channel owner signs in with Google and grants permission, the tool
         uploads our videos, sets their thumbnails and captions, and reads our own channel's basic details
-        (name, ID, video and subscriber counts) to confirm it is uploading to the right channel.</li>
+        (name, ID, video and subscriber counts) to confirm it is uploading to the right channel. After each
+        upload it reads that video's status, to confirm it was scheduled correctly.</li>
       <li><b>What it does not do.</b> It does not read, collect, store or share any information about other
         YouTube users or about people who watch our videos.</li>
       <li><b>What it stores.</b> The Google sign-in token, kept only on our own computer in a file only our
